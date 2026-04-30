@@ -65,6 +65,7 @@ public final class ConfigurationFile {
 	 */
 	public static String DEFAULT_GATEKEEPER_NAME="GK";
 
+	
 
 	/************************************
 	 *
@@ -82,8 +83,8 @@ public final class ConfigurationFile {
 	
 	//public static String INSTANCE_TOPOLOGY="resources/topology/map2020-topologyExam1-graph.dgs";
 	//public static String INSTANCE_TOPOLOGY="resources/topology/HouatTopology";
-	//public static String INSTANCE_TOPOLOGY="resources/topology/map2025-topologyExam";
-	public static String INSTANCE_TOPOLOGY="resources/topology/map2021-topologyExam1-graph.dgs";
+	public static String INSTANCE_TOPOLOGY="resources/topology/map2025-topologyExam";
+	//public static String INSTANCE_TOPOLOGY="resources/topology/map2021-topologyExam1-graph.dgs";
 	//public static String INSTANCE_TOPOLOGY="resources/interlocking/mapInterlocking2-topology";
 	//public static String INSTANCE_TOPOLOGY="resources/topology/map2023-topologyExam.dgs";
 	//public static String INSTANCE_TOPOLOGY="resources/topology/map2020-topologyExam1-graph.dgs";
@@ -163,12 +164,17 @@ public final class ConfigurationFile {
 	 */
 	//public static String INSTANCE_CONFIGURATION_ENTITIES=null;
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-1explo.json";
+	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-1explo-coop.json";   // TP §3.1 - 1 ExploreCoopAgent
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-1tanker.json";
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-1human.json";
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-1tanker-1collect.json";
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-1wumpus-1collect.json";
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-2collect.json";
 	public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-2explo-1human.json";
+	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-2explo.json";        // TP §3.2 - 2 MultiExploreAgent (Elsa + Tim)
+	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-2hunt.json";         // Projet §3 - 2 chasseurs + 1 Golem (R=1)
+	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-3hunt.json";         // Projet §3 - 3 chasseurs + 1 Golem (R=2)
+	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-3hunt-2golems.json"; // Projet §3 - 3 chasseurs + 2 Golems (multi)
 	
 
 

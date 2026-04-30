@@ -208,9 +208,76 @@ public class MapRepresentation implements Serializable {
 
 	public List<String> getOpenNodes(){
 		return this.g.nodes()
-				.filter(x ->x .getAttribute("ui.class")==MapAttribute.open.toString()) 
+				.filter(x ->x .getAttribute("ui.class")==MapAttribute.open.toString())
 				.map(Node::getId)
 				.collect(Collectors.toList());
+	}
+
+	/* ════════════════════════════════════════════════════════════════════════════
+	 * Helpers ajoutés pour HuntAgent / WumpusTracker
+	 * ════════════════════════════════════════════════════════════════════════════ */
+
+	/**
+	 * @return liste des identifiants de tous les nœuds connus (ouverts + fermés)
+	 */
+	public synchronized List<String> getAllNodes() {
+		return this.g.nodes().map(Node::getId).collect(Collectors.toList());
+	}
+
+	/**
+	 * @param nodeId identifiant du nœud
+	 * @return liste des identifiants des voisins ; liste vide si le nœud est inconnu
+	 */
+	public synchronized List<String> getNeighbors(String nodeId) {
+		Node n = this.g.getNode(nodeId);
+		if (n == null) return new ArrayList<>();
+		return n.neighborNodes().map(Node::getId).collect(Collectors.toList());
+	}
+
+	/**
+	 * Calcule la distance (nombre d'arêtes) entre deux nœuds via Dijkstra.
+	 *
+	 * @param from nœud de départ
+	 * @param to   nœud d'arrivée
+	 * @return distance en nombre de sauts, ou {@link Integer#MAX_VALUE} si non connecté
+	 */
+	public synchronized int getDistance(String from, String to) {
+		if (from == null || to == null) return Integer.MAX_VALUE;
+		if (from.equals(to)) return 0;
+		List<String> path = getShortestPath(from, to);
+		// getShortestPath retourne le chemin SANS la position de départ → size() = nb de sauts
+		return (path == null) ? Integer.MAX_VALUE : path.size();
+	}
+
+	/**
+	 * BFS jusqu'à profondeur {@code radius} depuis {@code center}.
+	 * Beaucoup plus efficace que {@link #getDistance(String, String)} pour calculer
+	 * tous les nœuds dans un voisinage borné (utilisé par {@code WumpusTracker}).
+	 *
+	 * @param center nœud central
+	 * @param radius rayon (≥ 0)
+	 * @return ensemble des nœuds atteignables en au plus {@code radius} sauts (inclut {@code center})
+	 */
+	public synchronized java.util.Set<String> getNodesWithinRadius(String center, int radius) {
+		java.util.Set<String> visited = new java.util.HashSet<>();
+		if (this.g.getNode(center) == null) return visited;
+		java.util.Deque<String> frontier = new java.util.ArrayDeque<>();
+		java.util.Map<String, Integer> depth = new java.util.HashMap<>();
+		visited.add(center);
+		frontier.add(center);
+		depth.put(center, 0);
+		while (!frontier.isEmpty()) {
+			String cur = frontier.poll();
+			int d = depth.get(cur);
+			if (d >= radius) continue;
+			for (String nb : getNeighbors(cur)) {
+				if (visited.add(nb)) {
+					depth.put(nb, d + 1);
+					frontier.add(nb);
+				}
+			}
+		}
+		return visited;
 	}
 
 

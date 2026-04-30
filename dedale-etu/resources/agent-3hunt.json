@@ -1,0 +1,55 @@
+[
+{
+  "agentType":"wumpus",
+  "agentName":"Golem",
+  "communicationRange":1,
+  "initialLocation":"1",
+  "backPackCapacityGold":-1,
+  "backPackCapacityDiamond":-1,
+  "detectionRadius":2,
+  "strengthExpertise":1,
+  "lockPickingExpertise":1
+},
+{
+  "agentType":"agentExplo",
+  "agentName":"H1",
+  "agentClass":"HuntAgent",
+  "agentInitialContainer":"container2",
+  "communicationRange":5,
+  "initialLocation":"free",
+  "backPackCapacityGold":-1,
+  "backPackCapacityDiamond":-1,
+  "detectionRadius":0,
+  "strengthExpertise":1,
+  "lockPickingExpertise":1,
+  "userParameters":["stenchRadius=2"]
+},
+{
+  "agentType":"agentExplo",
+  "agentName":"H2",
+  "agentClass":"HuntAgent",
+  "agentInitialContainer":"container3",
+  "communicationRange":5,
+  "initialLocation":"free",
+  "backPackCapacityGold":-1,
+  "backPackCapacityDiamond":-1,
+  "detectionRadius":0,
+  "strengthExpertise":1,
+  "lockPickingExpertise":1,
+  "userParameters":["stenchRadius=2"]
+},
+{
+  "agentType":"agentExplo",
+  "agentName":"H3",
+  "agentClass":"HuntAgent",
+  "agentInitialContainer":"container4",
+  "communicationRange":5,
+  "initialLocation":"free",
+  "backPackCapacityGold":-1,
+  "backPackCapacityDiamond":-1,
+  "detectionRadius":0,
+  "strengthExpertise":1,
+  "lockPickingExpertise":1,
+  "userParameters":["stenchRadius=2"]
+}
+]

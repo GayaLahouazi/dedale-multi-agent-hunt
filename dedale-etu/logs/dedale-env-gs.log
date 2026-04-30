@@ -1,0 +1,456 @@
+15:21:17.631 [GK] INFO  - Loading configuration for environment MultiTypesV2
+15:21:17.631 [GK] INFO  - Generator type:MANUAL
+15:21:21.047 [Explo2] INFO  - Entity Explo2 deployed in 7
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<Strength, 1>, <LockPicking, 1>]
+ 	 UserParameters: [param2, param3]
+15:21:21.053 [ImHere] INFO  - Entity ImHere deployed in 8
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<Strength, 1>, <LockPicking, 1>]
+ 	 UserParameters: [param]
+15:21:21.120 [Explo1] INFO  - Entity Explo1 deployed in 24
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<Strength, 1>, <LockPicking, 1>]
+ 	 UserParameters: [param1]
+22:14:41.618 [GK] INFO  - Loading configuration for environment MultiTypesV2
+22:14:41.618 [GK] INFO  - Generator type:MANUAL
+22:14:46.581 [Explo2] INFO  - Entity Explo2 deployed in 31
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
+22:14:47.085 [Explo1] INFO  - Entity Explo1 deployed in 1
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+22:14:47.316 [ImHere] INFO  - Entity ImHere deployed in 12
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+13:01:45.764 [GK] INFO  - Loading configuration for environment MultiTypesV2
+13:01:45.765 [GK] INFO  - Generator type:MANUAL
+13:01:48.921 [ImHere] INFO  - Entity ImHere deployed in 2
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<Strength, 1>, <LockPicking, 1>]
+ 	 UserParameters: [param]
+13:01:48.978 [Explo2] INFO  - Entity Explo2 deployed in 4
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<Strength, 1>, <LockPicking, 1>]
+ 	 UserParameters: [param2, param3]
+13:01:48.983 [Explo1] INFO  - Entity Explo1 deployed in 13
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<Strength, 1>, <LockPicking, 1>]
+ 	 UserParameters: [param1]
+13:07:06.221 [GK] INFO  - Loading configuration for environment MultiTypesV2
+13:07:06.222 [GK] INFO  - Generator type:MANUAL
+13:07:08.620 [Explo1] INFO  - Entity Explo1 deployed in 10
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+13:07:08.657 [ImHere] INFO  - Entity ImHere deployed in 28
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+13:07:08.670 [Explo2] INFO  - Entity Explo2 deployed in 32
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
+13:15:09.296 [GK] INFO  - Loading configuration for environment MultiTypesV2
+13:15:09.297 [GK] INFO  - Generator type:MANUAL
+13:15:12.033 [Explo2] INFO  - Entity Explo2 deployed in 12
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
+13:15:12.048 [Explo1] INFO  - Entity Explo1 deployed in 32
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+13:15:12.094 [ImHere] INFO  - Entity ImHere deployed in 23
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+13:20:10.792 [GK] INFO  - Loading configuration for environment MultiTypesV2
+13:20:10.793 [GK] INFO  - Generator type:MANUAL
+13:20:13.534 [Explo1] INFO  - Entity Explo1 deployed in 4
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+13:20:13.580 [ImHere] INFO  - Entity ImHere deployed in 39
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+13:20:13.661 [Explo2] INFO  - Entity Explo2 deployed in 18
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
+17:02:16.305 [GK] INFO  - Loading configuration for environment MultiTypesV2
+17:02:16.307 [GK] INFO  - Generator type:MANUAL
+17:02:20.332 [ImHere] INFO  - Entity ImHere deployed in 13
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+17:02:20.341 [Explo2] INFO  - Entity Explo2 deployed in 16
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
+17:02:20.344 [Explo1] INFO  - Entity Explo1 deployed in 12
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+17:11:39.081 [GK] INFO  - Loading configuration for environment MultiTypesV2
+17:11:39.082 [GK] INFO  - Generator type:MANUAL
+17:11:41.603 [Explo2] INFO  - Entity Explo2 deployed in 4
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
+17:11:41.654 [ImHere] INFO  - Entity ImHere deployed in 22
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+17:11:41.810 [Explo1] INFO  - Entity Explo1 deployed in 1
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+17:23:36.340 [GK] INFO  - Loading configuration for environment MultiTypesV2
+17:23:36.341 [GK] INFO  - Generator type:MANUAL
+17:23:38.872 [Explo1] INFO  - Entity Explo1 deployed in 31
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+17:23:38.890 [Explo2] INFO  - Entity Explo2 deployed in 10
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
+17:23:38.894 [ImHere] INFO  - Entity ImHere deployed in 22
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+17:50:44.701 [GK] INFO  - Loading configuration for environment MultiTypesV2
+17:50:44.702 [GK] INFO  - Generator type:MANUAL
+17:50:47.489 [ImHere] INFO  - Entity ImHere deployed in 75
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+17:50:47.500 [Explo1] INFO  - Entity Explo1 deployed in 71
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+17:50:47.501 [Explo2] INFO  - Entity Explo2 deployed in M20
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
+18:11:59.180 [GK] INFO  - Loading configuration for environment MultiTypesV2
+18:11:59.180 [GK] INFO  - Generator type:MANUAL
+18:12:01.763 [Explo1] INFO  - Entity Explo1 deployed in M4
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+18:12:01.813 [Explo2] INFO  - Entity Explo2 deployed in 68
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
+18:12:01.828 [ImHere] INFO  - Entity ImHere deployed in h12
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+18:52:11.137 [GK] INFO  - Loading configuration for environment MultiTypesV2
+18:52:11.138 [GK] INFO  - Generator type:MANUAL
+18:52:13.719 [ImHere] INFO  - Entity ImHere deployed in 94
+ Characteristics:  type : 
+ AgentName: ImHere
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.ControlledAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: HumanControlled
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 1
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param]
+18:52:13.826 [Explo1] INFO  - Entity Explo1 deployed in 62
+ Characteristics:  type : 
+ AgentName: Explo1
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 3
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param1]
+18:52:13.832 [Explo2] INFO  - Entity Explo2 deployed in M34
+ Characteristics:  type : 
+ AgentName: Explo2
+ 	 Instance of eu.su.mas.dedaleEtu.mas.agents.dummies.explo.ExploreSoloAgent
+ 	 Initial container: Ithaq_container2
+ 	 Initial location: null
+ 	 Entitytype: AgentExplo
+ 	 TreasureType : None; diamondCapa: -1; goldCapa: -1
+ 	 comReach: 4
+ 	 detection radius: 0
+ 	 Expertise: [<LockPicking, 1>, <Strength, 1>]
+ 	 UserParameters: [param2, param3]
