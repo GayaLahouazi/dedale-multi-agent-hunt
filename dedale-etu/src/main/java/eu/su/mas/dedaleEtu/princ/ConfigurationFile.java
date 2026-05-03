@@ -82,8 +82,8 @@ public final class ConfigurationFile {
 	//public static String INSTANCE_TOPOLOGY=null;
 
 	// === Soutenance 2026 ===
-	public static String INSTANCE_TOPOLOGY="resources/topology/map2026-topologyExam1";   // scénario 1 : 3 chasseurs + 1 humain
-	//public static String INSTANCE_TOPOLOGY="resources/topology/map2026-topologyExam2"; // scénario 2 : 7 chasseurs + 3 golems
+	public static String INSTANCE_TOPOLOGY="resources/topology/map2026-topologyExam1.dgs";   // scénario 1 : 3 chasseurs + 1 humain
+	//public static String INSTANCE_TOPOLOGY="resources/topology/map2026-topologyExam2.dgs"; // scénario 2 : 7 chasseurs + 3 golems
 	//public static String INSTANCE_TOPOLOGY="resources/topology/map2020-topologyExam1-graph.dgs";
 	//public static String INSTANCE_TOPOLOGY="resources/topology/HouatTopology";
 	//public static String INSTANCE_TOPOLOGY="resources/topology/map2025-topologyExam";
