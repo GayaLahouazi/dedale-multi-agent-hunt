@@ -80,10 +80,13 @@ public final class ConfigurationFile {
 	 * Give the topology 
 	 */
 	//public static String INSTANCE_TOPOLOGY=null;
-	
+
+	// === Soutenance 2026 ===
+	public static String INSTANCE_TOPOLOGY="resources/topology/map2026-topologyExam1";   // scénario 1 : 3 chasseurs + 1 humain
+	//public static String INSTANCE_TOPOLOGY="resources/topology/map2026-topologyExam2"; // scénario 2 : 7 chasseurs + 3 golems
 	//public static String INSTANCE_TOPOLOGY="resources/topology/map2020-topologyExam1-graph.dgs";
 	//public static String INSTANCE_TOPOLOGY="resources/topology/HouatTopology";
-	public static String INSTANCE_TOPOLOGY="resources/topology/map2025-topologyExam";
+	//public static String INSTANCE_TOPOLOGY="resources/topology/map2025-topologyExam";
 	//public static String INSTANCE_TOPOLOGY="resources/topology/map2021-topologyExam1-graph.dgs";
 	//public static String INSTANCE_TOPOLOGY="resources/interlocking/mapInterlocking2-topology";
 	//public static String INSTANCE_TOPOLOGY="resources/topology/map2023-topologyExam.dgs";
@@ -170,11 +173,14 @@ public final class ConfigurationFile {
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-1tanker-1collect.json";
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-1wumpus-1collect.json";
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-2collect.json";
-	public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-2explo-1human.json";
+	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-2explo-1human.json";
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-2explo.json";        // TP §3.2 - 2 MultiExploreAgent (Elsa + Tim)
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-2hunt.json";         // Projet §3 - 2 chasseurs + 1 Golem (R=1)
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-3hunt.json";         // Projet §3 - 3 chasseurs + 1 Golem (R=2)
 	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-3hunt-2golems.json"; // Projet §3 - 3 chasseurs + 2 Golems (multi)
+	// === Soutenance 2026 ===
+	public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-3hunters-1human.json";  // exam scénario 1 - 3 HuntAgent + 1 humain (mapExam1)
+	//public static String INSTANCE_CONFIGURATION_ENTITIES="resources/agent-7hunters-3golems.json"; // exam scénario 2 - 7 HuntAgent + 3 Golems (mapExam2)
 	
 
 
