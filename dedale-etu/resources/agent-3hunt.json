@@ -2,6 +2,8 @@
 {
   "agentType":"wumpus",
   "agentName":"Golem",
+  "agentClass":"dummies.DummyMovingAgent",
+  "agentInitialContainer":"container2",
   "communicationRange":1,
   "initialLocation":"1",
   "backPackCapacityGold":-1,

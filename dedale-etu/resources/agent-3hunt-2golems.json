@@ -2,6 +2,8 @@
 {
   "agentType":"wumpus",
   "agentName":"Golem1",
+  "agentClass":"dummies.DummyMovingAgent",
+  "agentInitialContainer":"container2",
   "communicationRange":1,
   "initialLocation":"1",
   "backPackCapacityGold":-1,
@@ -13,6 +15,8 @@
 {
   "agentType":"wumpus",
   "agentName":"Golem2",
+  "agentClass":"dummies.DummyMovingAgent",
+  "agentInitialContainer":"container2",
   "communicationRange":1,
   "initialLocation":"15",
   "backPackCapacityGold":-1,
