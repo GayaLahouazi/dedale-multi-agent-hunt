@@ -55,3 +55,7 @@ local.properties
 build
 build/
 **/*.jar
+
+# Generated files
+logs/
+doc/
